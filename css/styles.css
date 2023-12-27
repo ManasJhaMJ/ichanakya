@@ -227,6 +227,42 @@ nav {
     text-align: center;
 }
 
+#internship {
+    width: 100%;
+    background: url(../Images/internship-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vw 0;
+}
+
+#internship h1 {
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 2vw;
+    color: #000;
+}
+
+#internship p {
+    color: #000;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 1.8vw;
+    width: 80%;
+    text-align: center;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
 
