@@ -22,7 +22,7 @@ body {
 
 a {
     text-decoration: none;
-
+    font-size: 1.3vw;
 }
 
 nav {
@@ -41,7 +41,7 @@ nav {
 
 .logo {
     margin: 0vw 1vw;
-    padding: 1.1vw 0;
+    padding: 1vw 0;
 }
 
 .logo img {
@@ -59,15 +59,10 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: #000;
-    font-size: 1.1rem;
+    font-size: 1.1vw;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-}
-
-.menu-icon {
-    width: 5vw;
-    height: auto;
 }
 
 #home {
@@ -76,13 +71,13 @@ nav {
     align-items: top;
     height: 100%;
     margin: 0 5vw;
-    margin-top: calc(5vw + 1.1vw);
+    margin-top: calc(5vw + 1.3vw);
 }
 
 .landing-text {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     text-align: left;
     height: auto;
@@ -90,7 +85,7 @@ nav {
 }
 
 .landing-text h1 {
-    font-size: 5rem;
+    font-size: 3.5vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -101,13 +96,13 @@ nav {
 
 .landing-text h2 {
     color: #808080;
-    font-size: 2rem;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-align: left;
-    width: 90%;
-    margin: 0 0.7vw;
+    width: 70%;
+    margin: 0;
     margin-bottom: 1vw;
 
 }
@@ -134,7 +129,7 @@ nav {
 
 .btn {
     display: flex;
-    width: 10rem;
+    width: 10vw;
     padding: 0.75rem;
     margin: 0 0.7rem;
     justify-content: center;
@@ -142,10 +137,11 @@ nav {
     gap: 0.625rem;
     color: #FFF;
     font-family: Poppins;
-    font-size: 1.25rem;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
+    cursor: pointer;
 }
 
 .orange-btn {
@@ -178,7 +174,7 @@ nav {
 }
 
 .services h1 {
-    font-size: 3rem;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -188,7 +184,7 @@ nav {
 
 .services h2 {
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -203,13 +199,17 @@ nav {
 }
 
 .milestones h1 {
-    font-size: 3rem;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-align: center;
     margin-bottom: 2vw;
     color: #000;
+}
+
+.milestone h2 {
+    font-size: 1.2vw;
 }
 
 .milestones-grp {
@@ -239,10 +239,11 @@ nav {
     align-items: center;
     flex-direction: column;
     padding: 1vw 0;
+    margin-bottom: 8vw;
 }
 
 #internship h1 {
-    font-size: 5rem;
+    font-size: 4.5vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -254,7 +255,7 @@ nav {
 #internship p {
     color: #000;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -263,8 +264,86 @@ nav {
     text-align: center;
 }
 
+#contact {
+    margin: 0 5vw;
+}
+
+#contact h1 {
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 2vw;
+    color: #000;
+}
+
+.contact {
+    background-color: #D6E3F4;
+    border-radius: 1.1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    padding: 2vw;
+    margin-bottom: 1.8vw;
+}
+
+.contact-icon {
+    width: 45px;
+    height: auto;
+}
+
+.contact-type {
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+.contact-type h2 {
+    padding: 0.6vw 0 1.2vw 0;
+}
+
+.contact-type p {
+    padding: 0 1.3vw;
+}
+
+footer {
+    background-color: #09730C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    margin: 0 !important;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0.5vw 0;
+}
+
+.footer-logo {
+    width: 20vw;
+    height: auto;
+    padding: 1vw 0;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
+
+    nav {
+        padding: 0 2vw;
+        height: fit-content;
+    }
+
+    .logo img {
+        width: 20vw;
+    }
+
 
 
     .nav-links {
@@ -274,11 +353,14 @@ nav {
     /* Dropdown Button */
     .dropbtn {
         background-color: transparent;
-        color: white;
+        color: black;
         padding: 16px;
-        font-size: 16px;
+        font-weight: 700;
+        font-size: 17px;
         border: none;
         cursor: pointer;
+        border: #09730C 2px solid;
+        margin: 20px;
     }
 
     /* Dropdown button on hover & focus */
@@ -320,4 +402,119 @@ nav {
     .show {
         display: block;
     }
+
+    #home {
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100%;
+        margin: 0 5vw;
+        margin-top: 25vw;
+    }
+
+    .landing-text {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+        height: auto;
+        color: #2E2E2E;
+    }
+
+    .landing-text h1 {
+        font-size: 10vw;
+        text-align: center;
+        width: 100%;
+    }
+
+    .landing-text h2 {
+        color: #808080;
+        font-size: 7vw;
+        text-align: center;
+        width: 100%;
+    }
+
+    .landing-img {
+        width: 100%;
+    }
+
+    .btn {
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+    }
+
+    .cta-group {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        margin: 15vw 5vw 5vw 5vw;
+        color: #000;
+    }
+
+    .services h1 {
+        font-size: 2.5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 1vw;
+    }
+
+    .services h2 {
+        color: #000;
+        font-size: 1vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 1.5vw;
+        width: 45%;
+    }
+
+    .milestones {
+        text-align: center;
+        margin-bottom: 8vw;
+    }
+
+    .milestones h1 {
+        font-size: 2.5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 2vw;
+        color: #000;
+    }
+
+    .milestone h2 {
+        font-size: 1.2vw;
+    }
+
+    .milestones-grp {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        height: 100%;
+        margin: 0;
+        color: #000;
+
+    }
+
+    .milestone {
+        text-align: center;
+    }
+
 }
