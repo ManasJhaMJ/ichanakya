@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.green {
+    color: #09730C;
+}
+
+.orange {
+    color: #CC5525;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+nav {
+    background-color: #CC5525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    margin: 0 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    margin: 0vw 1vw;
+    padding: 1.1vw 0;
+}
+
+.logo img {
+    height: auto;
+    width: 5vw;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.menu-icon {
+    width: 5vw;
+    height: auto;
+}
+
+#home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    height: 100%;
+    margin: 0 5vw;
+    margin-top: calc(5vw + 1.1vw);
+}
+
+.landing-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    height: auto;
+    color: #2E2E2E;
+}
+
+.landing-text h1 {
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 1vw;
+    width: 90%;
+}
+
+.landing-text h2 {
+    color: #808080;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    width: 90%;
+    margin: 0 0.7vw;
+    margin-bottom: 1vw;
+
+}
+
+.landing-img {
+    height: auto;
+    width: 40vw;
+    padding: 1vw;
+}
+
+.dropdown {
+    display: none;
+}
+
+.cta-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 1vw;
+    width: 100%;
+
+}
+
+.btn {
+    display: flex;
+    width: 10rem;
+    padding: 0.75rem;
+    margin: 0 0.7rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.orange-btn {
+    border-radius: 0.5rem;
+    background: #CC5525;
+    border: none;
+    box-shadow: 0px 0px 64px 0px rgba(204, 85, 37, 0.65);
+}
+
+.green-btn {
+    border-radius: 0.5rem;
+    background: #216F21;
+    border: none;
+    box-shadow: 0px 0px 64px 0px rgba(33, 111, 33, 0.49);
+}
+
+#milestones {
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 8vw 5vw 5vw 5vw;
+    color: #000;
+}
+
+.services h1 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.services h2 {
+    color: #000;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 1.5vw;
+    width: 45%;
+}
+
+.milestones {
+    text-align: center;
+    margin-bottom: 8vw;
+}
+
+.milestones h1 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 2vw;
+    color: #000;
+}
+
+.milestones-grp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
+    color: #000;
+
+}
+
+.milestone {
+    text-align: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+
+
+    .nav-links {
+        display: none;
+    }
+
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: transparent;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover,
+    .dropbtn:focus {
+        background-color: transparent;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {
+        display: block;
+    }
+}
