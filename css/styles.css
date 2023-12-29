@@ -571,3 +571,13 @@ footer p {
         padding: 0;
     }
 }
+
+@media only screen and (min-width: 650px) and (max-width: 768px) {
+    .logo img {
+        width: 15vw;
+    }
+
+    .milestone text {
+        font-size: 4vw;
+    }
+}
