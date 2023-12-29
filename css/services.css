@@ -16,6 +16,11 @@ body {
     background-color: #fff;
 }
 
+img {
+    -webkit-user-drag: none;
+    width: 100%;
+}
+
 .green {
     color: #09730C;
 }
@@ -116,7 +121,7 @@ nav {
 }
 
 #services {
-    margin: 0 5vw;
+    margin: 0 8vw;
     margin-top: calc(5vw + 5rem);
 }
 
@@ -125,6 +130,14 @@ nav {
     font-size: 3vw;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+}
+
+#services p {
+    text-align: justify;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
 
@@ -168,6 +181,14 @@ nav {
     width: 20vw;
     height: auto;
     padding: 0 2vw;
+}
+
+#features {
+    margin: 2vw 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -302,6 +323,63 @@ footer p {
         text-align: center;
         padding: 6vw 0;
     }
+
+    #services h1 {
+        color: #000;
+        font-size: 10vw;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    #services p {
+        display: none;
+    }
+
+    #services h2 {
+        font-size: 4vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: left;
+    }
+
+    #services h6 {
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: justify;
+        padding-bottom: 10vw;
+    }
+
+    .services-container {
+        text-align: center;
+    }
+
+    .services-text {
+        width: 100%;
+    }
+
+    .services {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        margin: 5vw 0;
+    }
+
+    .services-container>div:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .services img {
+        width: 100%;
+        height: auto;
+        padding: 0 2vw;
+    }
+
 
     footer {
         justify-content: space-between;
