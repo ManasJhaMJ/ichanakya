@@ -303,3 +303,19 @@ footer p {
         width: 7vw;
     }
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CC5525;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #09730C;
+}

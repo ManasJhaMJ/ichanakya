@@ -134,11 +134,11 @@ nav {
 }
 
 #services p {
-    text-align: justify;
     font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: justify;
 }
 
 #services h2 {
@@ -150,11 +150,11 @@ nav {
 }
 
 #services h6 {
+    text-align: justify;
     font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: justify;
 }
 
 .services-container {
@@ -333,7 +333,7 @@ footer p {
         line-height: normal;
     }
 
-    #services p {
+    #services h6 {
         display: none;
     }
 
@@ -345,13 +345,14 @@ footer p {
         text-align: left;
     }
 
-    #services h6 {
-        font-size: 3vw;
+    #services p {
+        font-size: 3.2vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         text-align: justify;
         padding-bottom: 10vw;
+        word-spacing: normal;
     }
 
     .services-container {
@@ -405,4 +406,20 @@ footer p {
     .logo img {
         width: 7vw;
     }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CC5525;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #09730C;
 }
