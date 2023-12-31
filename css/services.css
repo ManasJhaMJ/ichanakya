@@ -139,6 +139,9 @@ nav {
     font-weight: 400;
     line-height: normal;
     text-align: justify;
+    text-justify: distribute;
+    text-align-last: left;
+    hyphens: auto;
 }
 
 #services h2 {
@@ -166,8 +169,8 @@ nav {
 }
 
 .services {
-    display: flex;
-    justify-content: space-evenly;
+    display:flex;
+    justify-content:center;
     flex-direction: row;
     align-items: center;
     margin: 5vw 0;
