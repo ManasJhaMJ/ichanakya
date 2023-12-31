@@ -352,7 +352,7 @@ footer p {
         line-height: normal;
         text-align: justify;
         padding-bottom: 10vw;
-        word-spacing: normal;
+        word-spacing: 3px;
     }
 
     .services-container {
