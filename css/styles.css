@@ -186,7 +186,7 @@ nav {
     margin-bottom: 1vw;
 }
 
-.services h2 {
+.services p {
     color: #000;
     font-size: 1vw;
     font-style: normal;
@@ -472,7 +472,7 @@ footer p {
         font-size: 8vw;
     }
 
-    .services h2 {
+    .services p {
         font-size: 4vw;
         text-align: justify;
         width: 100%;
