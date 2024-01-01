@@ -142,6 +142,7 @@ nav {
     /* text-justify: distribute; */
     text-align-last: left;
     hyphens: auto;
+    word-spacing: normal;
 }
 
 #services h2 {
@@ -169,17 +170,13 @@ nav {
 }
 
 .services {
-    /* display:flex;
+    display:flex;
     justify-content:center;
     flex-direction: row;
     align-items: center;
     margin: 5vw 0;
-    text-align: justify; */
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
     text-align: justify;
+    
 }
 
 .services-container>div:nth-child(even) {
@@ -187,11 +184,7 @@ nav {
 }
 
 .services img {
-    /* width: 20vw;
-    height: auto;
-    padding: 0 2vw; */
-
-    max-width: 100%;
+    width: 20vw;
     height: auto;
     padding: 0 2vw;
 }
@@ -245,6 +238,9 @@ footer p {
     .nav-links {
         display: none;
     }
+    #services p {
+      text-align: left; /* Left align on smaller screens */
+  }
 
 
     /* Dropdown Button */
