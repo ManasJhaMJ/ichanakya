@@ -161,9 +161,6 @@ nav {
     text-align: justify;
     margin-bottom: 2vw;
     width: 80%;
-    text-justify: distribute;
-    text-align-last: left;
-    hyphens: auto;
 }
 
 footer {
