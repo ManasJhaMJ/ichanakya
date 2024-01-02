@@ -127,9 +127,6 @@ nav {
     margin-bottom: 5vw;
     text-align: justify;
     padding: 1vw 2vw;
-    text-justify: distribute;
-    text-align-last: left;
-    hyphens: auto;
 }
 
 footer {
