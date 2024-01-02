@@ -310,7 +310,7 @@ footer p {
 
     #internship h6 {
         font-size: 4vw;
-        text-align: justify;
+        text-align: left;
         margin-bottom: 10vw;
     }
 
@@ -322,7 +322,7 @@ footer p {
 
     #internship p {
         font-size: 4vw;
-        text-align: justify;
+        text-align: left;
         margin-bottom: 2vw;
         width: 100%;
     }

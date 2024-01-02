@@ -350,7 +350,7 @@ footer p {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        text-align: justify;
+        text-align: left;
         padding-bottom: 10vw;
         word-spacing: 3px;
     }
@@ -378,7 +378,7 @@ footer p {
     .services img {
         width: 100%;
         height: auto;
-        padding: 0 2vw;
+        padding: 0;
     }
 
 

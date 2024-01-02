@@ -474,7 +474,7 @@ footer p {
 
     .services p {
         font-size: 4vw;
-        text-align: justify;
+        text-align: left;
         width: 100%;
     }
 
@@ -488,7 +488,7 @@ footer p {
     }
 
     .milestone h2 {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .milestones-grp {
@@ -520,7 +520,7 @@ footer p {
 
     #internship p {
         color: #000;
-        text-align: justify;
+        text-align: left;
         font-size: 4vw;
     }
 
