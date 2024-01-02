@@ -139,7 +139,7 @@ nav {
     font-weight: 400;
     line-height: normal;
     text-align: justify;
-    /* text-justify: distribute; */
+    text-justify: distribute;
     text-align-last: left;
     hyphens: auto;
 }
@@ -161,7 +161,7 @@ nav {
 }
 
 .services-container {
-    text-align: justify;
+    text-align: center;
 }
 
 .services-text {
@@ -169,17 +169,11 @@ nav {
 }
 
 .services {
-    /* display:flex;
+    display:flex;
     justify-content:center;
     flex-direction: row;
     align-items: center;
     margin: 5vw 0;
-    text-align: justify; */
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    text-align: justify;
 }
 
 .services-container>div:nth-child(even) {
@@ -187,11 +181,7 @@ nav {
 }
 
 .services img {
-    /* width: 20vw;
-    height: auto;
-    padding: 0 2vw; */
-
-    max-width: 100%;
+    width: 20vw;
     height: auto;
     padding: 0 2vw;
 }
@@ -245,7 +235,6 @@ footer p {
     .nav-links {
         display: none;
     }
-
 
     /* Dropdown Button */
     .dropbtn {
