@@ -163,6 +163,37 @@ nav {
     width: 80%;
 }
 
+.apply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+.orange-btn {
+    border-radius: 0.5rem;
+    background: #CC5525;
+    border: none;
+    box-shadow: 0px 0px 64px 0px rgba(204, 85, 37, 0.65);
+}
+
+.btn {
+    display: flex;
+    width: 10vw;
+    padding: 0.75rem;
+    margin: 0 0.7rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+
 footer {
     background-color: #09730C;
     display: flex;

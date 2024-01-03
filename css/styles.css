@@ -219,7 +219,7 @@ nav {
 .milestones-grp {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
     flex-direction: row;
     height: 100%;
     margin: 0;
@@ -505,7 +505,7 @@ footer p {
     }
 
     .milestone text {
-        font-size: 8.5vw;
+        font-size: 7.5vw;
     }
 
 
